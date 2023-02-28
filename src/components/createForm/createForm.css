@@ -1,0 +1,30 @@
+.createForm-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+  gap: .5rem;
+  border-radius: .2rem;
+}
+
+.createForm-container form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.createForm-container form textarea {
+  height: 5rem;
+  resize: none;
+  padding: .5rem;
+}
+
+.createForm-container form .button {
+  width: max-content;
+  background: #34a853;
+  color: #fff;
+}
+
+.createForm-container form .button:hover {
+  background: #34bb58;
+}

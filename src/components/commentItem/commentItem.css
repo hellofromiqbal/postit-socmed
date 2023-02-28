@@ -1,0 +1,27 @@
+.commentItem-container {
+  background: #f3eeee;
+  padding: 1rem 1rem .5rem;
+  margin: .3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commentItem-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commentItem-action__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .2rem;
+}
+
+.commentItem-action__item .icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}

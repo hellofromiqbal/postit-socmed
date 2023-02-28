@@ -1,0 +1,15 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.footer-container .button {
+  background: red;
+  color: #fff;
+}
+
+.footer-container .button:hover {
+  background: rgb(228, 14, 14);
+}

@@ -1,0 +1,24 @@
+.commentsList-container {
+  background: #fff;
+  padding: 1rem;
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.commentsList-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commentsList-header .icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.commentsList-content {
+  overflow: auto;
+}

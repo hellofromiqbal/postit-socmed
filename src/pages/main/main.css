@@ -1,0 +1,36 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../../assets/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content_logo .icon {
+  font-size: 3rem;
+}
+
+.main-content_logo h1 {
+  font-size: 3rem;
+}
+
+.main-content_action .button {
+  margin-top: .5rem;
+  background: #34a853;
+  color: #fff;
+}
+
+.main-content_action .button:hover {
+  background: #34bb58;
+}

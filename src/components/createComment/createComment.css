@@ -1,0 +1,23 @@
+.createComment-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 0 1rem 1rem;
+  background: #f3eeee;
+}
+
+.createComment-container form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.createComment-container form textarea {
+  height: 5rem;
+  resize: none;
+  padding: .5rem;
+}
+
+.createComment-container form .button {
+  width: max-content;
+}

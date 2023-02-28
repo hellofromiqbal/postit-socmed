@@ -1,0 +1,24 @@
+.postsList-container {
+  background: #fff;
+  padding: 1rem;
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.postsList-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postsList-header .icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.postsList-content {
+  overflow: auto;
+}

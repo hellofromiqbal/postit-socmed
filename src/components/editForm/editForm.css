@@ -1,0 +1,57 @@
+.editForm-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+  gap: .5rem;
+  border-radius: .3rem;
+}
+
+.editForm-container form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.editForm-container form textarea {
+  height: 5rem;
+  resize: none;
+  padding: .5rem;
+}
+
+.editForm-container form .button {
+  width: max-content;
+}
+
+.editForm-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editForm-action .action__non-danger {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+
+.editForm-action .action__non-danger .button:nth-child(1) {
+  width: max-content;
+  background: #4285f4;
+  color: #fff;
+}
+
+.editForm-action .action__non-danger .button:nth-child(1):hover {
+  background: #367beb;
+}
+
+.editForm-action .action__danger {
+  display: flex;
+  align-items: center;
+}
+
+.editForm-action .action__danger .icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

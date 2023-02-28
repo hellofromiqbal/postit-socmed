@@ -1,0 +1,28 @@
+.postItem-container {
+  background: #f3eeee;
+  padding: 1rem 1rem .5rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #fff;
+}
+
+.postItem-action {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.postItem-action__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .2rem;
+}
+
+.postItem-action__item .icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
