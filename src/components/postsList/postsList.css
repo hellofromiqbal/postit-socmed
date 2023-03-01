@@ -22,9 +22,3 @@
 .postsList-content {
   overflow: auto;
 }
-
-@media screen and (max-width: 600px) {
-  .postsList-container {
-    padding: .5rem;
-  }
-}

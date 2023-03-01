@@ -39,10 +39,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .comments-container {
-    padding: .5rem;
-  }
-
   .post-detail {
     padding: .5rem;
   }
