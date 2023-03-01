@@ -1,6 +1,6 @@
 .commentItem-container {
   background: #f3eeee;
-  padding: 1rem 1rem .5rem;
+  padding: 1rem;
   margin: .3rem 0;
   display: flex;
   flex-direction: row;
@@ -24,4 +24,14 @@
 .commentItem-action__item .icon {
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .commentItem-container {
+    padding: .5rem;
+  }
+
+  .commentItem-action__item .icon {
+    font-size: 1.2rem;
+  }
 }

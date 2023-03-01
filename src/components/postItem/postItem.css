@@ -26,3 +26,9 @@
   font-size: 1.3rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .postItem-action__item .icon {
+    font-size: 1.2rem;
+  }
+}

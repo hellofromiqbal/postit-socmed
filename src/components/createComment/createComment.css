@@ -20,4 +20,16 @@
 
 .createComment-container form .button {
   width: max-content;
+  background: #4285f4;
+  color: #fff;
+}
+
+.createComment-container form .button:hover {
+  background: #367beb;
+}
+
+@media screen and (max-width: 600px) {
+  .createComment-container {
+    padding: .5rem;
+  }
 }

@@ -21,7 +21,7 @@ const CommentItem = (props) => {
       </div>
       {isUserOwnTheComment && 
         <div className="commentItem-action">
-          <div className="postItem-action__item">
+          <div className="commentItem-action__item">
             <BsTrash className='icon' onClick={() => deleteComment(data.commentId)}/>
           </div>
         </div>

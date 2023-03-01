@@ -11,11 +11,15 @@ const EditForm = (props) => {
 
   const { register, handleSubmit, processInput } = useEditForm(post.postId);
 
-  const { deletePost } = useDeletePost();
+  const { deletionProcess } = useDeletePost();
 
-  const cancelEdit = (e) => {
+  const handleCancel = (e) => {
     e.preventDefault();
     navigate("/home");
+  };
+
+  const handleDelete = () => {
+    deletionProcess(post.postId);
   };
 
   return (
@@ -31,10 +35,10 @@ const EditForm = (props) => {
         <div className="editForm-action">
           <div className="action__non-danger">
             <input className='button' type="submit" value="Save"/>
-            <button className="button" onClick={(e) => cancelEdit(e)}>Cancel</button>
+            <button className="button" onClick={(e) => handleCancel(e)}>Cancel</button>
           </div>
           <div className="action__danger">
-            <BsTrash className='icon' onClick={() => deletePost(post.postId)}/>
+            <BsTrash className='icon' onClick={handleDelete}/>
           </div>
         </div>
       </form>

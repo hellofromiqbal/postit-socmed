@@ -17,3 +17,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    padding: .5rem;
+  }
+}

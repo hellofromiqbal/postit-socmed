@@ -22,3 +22,9 @@
 .commentsList-content {
   overflow: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .commentsList-container {
+    padding: .5rem;
+  }
+}

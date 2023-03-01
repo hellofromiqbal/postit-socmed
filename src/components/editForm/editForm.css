@@ -55,3 +55,9 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .editForm-container {
+    padding: .5rem;
+  }
+}
