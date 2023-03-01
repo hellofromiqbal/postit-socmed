@@ -28,9 +28,3 @@
 .createForm-container form .button:hover {
   background: #34bb58;
 }
-
-@media screen and (max-width: 600px) {
-  .createForm-container {
-    padding: .5rem;
-  }
-}
